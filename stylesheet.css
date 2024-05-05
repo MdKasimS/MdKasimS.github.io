@@ -22,4 +22,12 @@ body
     align-items: center;
     z-index: 100;
 }
+.logo
+{
+    position: relative;
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+}
+
 
