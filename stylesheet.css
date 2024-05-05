@@ -50,10 +50,34 @@ body
     width : 100%;
     justify-content: space-between;
     height: 100vh;
-    background: url(mdkasims-choice-1.jpg) no-repeat;
+    background: url(mdkasims-choice-2.png) no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
     align-items: center;
     padding: 70px 10% 0;
 }
+
+.home-content{
+    max-width: 600px;
+}
+
+.home-content h3{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.home-content h1{
+    font-size: 56px;
+    font-weight: 700;
+    margin: -3px 0;
+}
+
+.home-content p{
+    font-size: 20px;
+}
+
+
+/* 0b1c2a rgb(11, 28, 42) 
+51dfde rgb(81, 223, 222)
+*/
