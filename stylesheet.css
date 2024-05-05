@@ -41,4 +41,7 @@ body
     transition: .3s
 }
 
+.navbar hover{
+    color: #0ef;
+}
 
