@@ -34,14 +34,14 @@ body
 .navbar a{
     display: inline-block;
     font-size: 25px;
-    color: #0ef;
+    color: #fff;
     text-decoration: none;
     font-weight: 500;
     margin-left: 35px;
     transition: .3s
 }
 
-.navbar hover{
+.navbar a:hover{
     color: #0ef;
 }
 
@@ -50,8 +50,10 @@ body
     width : 100%;
     justify-content: space-between;
     height: 100vh;
-    background: url(Purple\ Illustrated\Mountain\Desktop\Wallpaper.png) no-repeat;
+    background: url(mdkasims-choice-1.jpg) no-repeat;
     background-size: cover;
     background-position: center;
-    align-items: 70px 100;
+    display: flex;
+    align-items: center;
+    padding: 70px 10% 0;
 }
