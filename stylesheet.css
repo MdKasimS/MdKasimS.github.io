@@ -57,7 +57,7 @@ body
     width : 100%;
     justify-content: space-between;
     height: 100vh;
-    background: url(mdkasims-choice-2.png) no-repeat;
+    background: url(mdkasims-choice-1.png) no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -117,7 +117,7 @@ body
     transition: .5s ease;
     opacity: 0;
     animation: slideLeft 1s ease forwards;
-    animation-delay: calc(.2s *  var);
+    animation-delay: calc(.2s *  var(--i));
 
     margin: 30px 15px 30px 0;
 }
