@@ -8,6 +8,7 @@
 body
 {
     color: #ededed;
+    background: #081b29;
 }
 .header
 {
@@ -16,7 +17,7 @@ body
     left:0;
     width:100%;
     padding: 20px 10%;
-    background: transparent;
+    background: #051129;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -35,7 +36,6 @@ body
     animation: slideRight 1s ease forwards; 
 }
 
-
 .navbar a{
     display: inline-block;
     font-size: 25px;
@@ -48,7 +48,6 @@ body
     animation: slideTop .5s ease forwards;
     animation-delay: calc(.2s * var(--i));
 }
-
 .navbar a:hover{
     color: #0ef;
 }
@@ -65,11 +64,9 @@ body
     align-items: center;
     padding: 70px 10% 0;
 }
-
 .home-content{
     max-width: 600px;
 }
-
 .home-content h3{
     font-size: 32px;
     font-weight: 700;
@@ -77,17 +74,14 @@ body
     animation: slideBottom 1s ease forwards;
     animation-delay: .7s;
 }
-
 .home-content h3 span{
     color: #0ef;
 }
-
 .home-content h3:nth-of-type(2){
     margin-bottom: 30px;
     animation: slideTop 1s ease forwards;
     animation-delay: .7s;
 }
-
 .home-content h1{
     font-size: 56px;
     font-weight: 700;
@@ -96,14 +90,12 @@ body
     animation: slideRight 1s ease forwards;
     animation-delay: 1s;
 }
-
 .home-content p{
     font-size: 20px;
     opacity: 0;
     animation: slideLeft 1s ease forwards;
     animation-delay: 1s;
 }
-
 .home-sci a{
     display: inline-flex;
     justify-content: center;
@@ -124,7 +116,6 @@ body
 
     margin: 30px 15px 30px 0;
 }
-
 .home-sci a:hover{
     background: #0ef;
     background-color: #081b29;
@@ -148,7 +139,6 @@ body
                 0 0 25px #0ef
 
 }
-
 .btn-box:hover{
     box-shadow: 0 0 5px cyan,
                 0 0 25px cyan,
@@ -163,9 +153,32 @@ body
     align-items: center;
     gap: 1.5rem;
 }
-
-
-
+.about-img img{
+    padding-bottom: 20%;
+    max-width: 630px;
+    height: auto;
+    width: 100%;
+    border-radius: 8px;
+}
+.about-text h2{
+    font-size: 60px;
+}
+.about-text h2 span{
+    color: #0ef;
+}
+.about-text h4{
+    font-size: 29px;
+    font-weight: 600;
+    color: #fff;
+    line-height: 1.7;
+    margin: 15px 0 30px;
+}
+.about-text p{
+    color: aliceblue;
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 4rem;
+}
 
 
 
