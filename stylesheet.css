@@ -556,14 +556,15 @@ section{
     transition: height 0.5s;
 }
 .layer h5{
-    color: #000;
+    color: #fff;
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 900;
     margin-bottom: 15px;
 }
 .layer p{
-    color: #000000;
+    color: #041b0b;
     font-size: 1rem;
+    font-weight: 900;
     line-height: 1.8;
 }
 .layer i{
