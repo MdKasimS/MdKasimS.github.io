@@ -1,194 +1,336 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Software Engineer</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
 
-    <!-- CSS Link -->
-    <link rel="stylesheet" href="./Style-BS5-1.css">
-    <!-- <link rel="stylesheet" href="./Style-CSS-1.css"> -->
 
-    <!-- Poppins Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;700&display=swap"
-        rel="stylesheet">
-
-    <!-- Boostrap Link -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-
-    <!-- FontAwesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio.</a>
 
-    <!-- Header section -->
-    <nav class="navbar navbar-expand-lg">
+        <nav class="navbar">
+            <a href="#home" style="--i:1;" class="active">Home</a>
+            <a href="#about" style="--i:2;">About</a>
+            <a href="#services" style="--i:3;">Services</a>
+            <a href="#skills" style="--i:4;">Skills</a>
+            <a href="#project" style="--i:4;">Project</a>
+            <a href="#contact" style="--i:5;">Contact</a>
 
-        <div class="container">
-            <a class="navbar-brand" href="#"><b>Mohammed Kasim</b></a>
+        </nav>
+    </header>
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Kasim Sache</h1>
+            <h3>And I'm a <span class="text"> </span></h3>
+            <p>I'm a Fullstack-developer with extensive experience of over 2 years.
+                <br>expertise is to create and design desktop applications, mobile applications and many more....
+            </p>
+            <div class="home-sci">
+                <!-- <a href="#" style="--i:7;"><i class='bx bxl-facebook'></i></a>
+                <a href="#" style="--i:8;"><i class='bx bxl-whatsapp'></i></a>
+                <a href="#" style="--i:9;"><i class='bx bxl-instagram'></i></a>
+                <a href="#" style="--i:10;"><i class='bx bxl-tiktok'></i></a> -->
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+                <a href="#" style="--i:6"><i class='bx bxl-github'></i></a>
+                <a href="#" style="--i:7"><i class='bx bxl-linkedin'></i></a>
+                <a href="#" style="--i:8"><i class='bx bxl-whatsapp'></i></a>
+                <a href="#" style="--i:9"><i class='bx bxl-discord-alt'></i></a>
+                <a href="#" style="--i:10"><i class='bx bxl-instagram'></i></a>
 
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#" data-bs-toggle="modal"
-                            data-bs-target="#myModal">Resume</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#myModal">Projects</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Services
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#" data-bs-toggle="modal"
-                                    data-bs-target="#myModal">Business & Personal Websites</a></li>
-                            <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#myModal">React
-                                    App Migration</a></li>
-                            <li><a class="dropdown-item" href="#" data-bs-toggle="modal"
-                                    data-bs-target="#myModal">Android Apps</a></li>
-                            <li><a class="dropdown-item" href="#" data-bs-toggle="modal"
-                                    data-bs-target="#myModal">Graphics Designing</a></li>
-                            <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#myModal">IT
-                                    Consulting & Development</a></li>
-                            <li><a class="dropdown-item" href="#" data-bs-toggle="modal"
-                                    data-bs-target="#myModal">DevOps</a></li>
-                            <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#myModal">IoT
-                                    And Modern SCADAs</a></li>
-                            <li><a class="dropdown-item" href="#" data-bs-toggle="modal"
-                                    data-bs-target="#myModal">Blockchain Development</a></li>
-                            <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#myModal">Data
-                                    Science</a></li>
-                            <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#myModal">Data
-                                    Engineering</a></li>
-
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#myModal">About ME</a>
-                    </li>
-                </ul>
             </div>
+            <a href="#" class="btn-box">More About Me</a>
+
         </div>
-    </nav>
-    <!-- Header Section Ends -->
+        </div>
 
-    <!-- Banner Section Starts -->
-    <div class="container">
-        <div class="row">
 
-            <div class="col-md-6">
 
-                <div class="title" id="animation">
-                    <h1>Hi,</h1>
-                    <!-- Element to contain animated typing -->
-                    <h1>I Am <span id="element"></span></h1>
-                </div>
+        </div>
+        <span class="home-imgHover"></span>
+    </section>
 
-                <div class="info">
-                    <p>I am A Enthusiastic software developer with hands on coding experience in developing web apps,
-                        android
-                        apps and desktop softwares.</p>
-                    <!-- Contact button -->
-                    <button class="btn">Contact With Me</button>
-                    <div class="social">
-                        <a href="https://www.linkedin.com/in/mahamadkasim-sache"><svg class="icon-svg"
-                                xmlns="http://www.w3.org/2000/svg" height="1.5em"
-                                viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-                                <path
-                                    d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z" />
-                            </svg></a>
+    <section class="about" id="about">
+        <div class="about-img">
+            <!-- <img src="Futuristic Neon Blue And Pink Light Instagram Profile Picture.png"> -->
+            <img src="mdkasims-about-prod-2.png">
+        </div>
 
-                        <a href="https://github.com/MdKasimS"><svg class="icon-svg" xmlns="http://www.w3.org/2000/svg"
-                                height="1.5em"
-                                viewBox="0 0 496 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-                                <path
-                                    d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z" />
-                            </svg></a>
+        <div class="about-text">
+            <h2>About <span>Me</span></h2>
+            <h4>Full Stack Developer!</h4>
+            <p>
 
-                        <a href="https://twitter.com/M0HammedQasim"><svg class="icon-svg"
-                                xmlns="http://www.w3.org/2000/svg" height="1.5em"
-                                viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-                                <path
-                                    d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z" />
-                            </svg></a>
+                I am a skilled fullstack software developer with over 2 years of experience in developing desktop and
+                android applications.
+                I have worked on software projects from requirements gathering to designing to developing a production
+                grade application.
+                I have designed UI/UX systems of several side projects - desktop as well as android applications.
 
+                Being a CSE graduate, I understand wide variety of technologies
+                from their base such as cloud, blockchain or AI. With strong experience from enterprise software
+                systems, I
+                am capable to implement and integrate
+                these trending technologies in a product.
+                Apart from tech stuff, I also love and I am always passionate in planning a project, handling teams,
+                conducting wokrshops and seminars, doing product
+                scope R&D.
+
+                I like bike riding, networking with professionals be it from tech or from non-tech fields, playing wih
+                cats a lot.
+
+
+            </p>
+            <a href="#" class="btn-box">More About Me</a>
+
+        </div>
+    </section>
+
+
+    <section>
+        <div class="services" id="services">
+            <div class="container">
+                <h1 class="sub-title">My <span>Services</span></h1>
+                <div class="services-list">
+                    <div>
+                        <i class='bx bxl-windows bx-flip-horizontal' style='color:#00eeff;'></i>
+                        <i class='bx bx-desktop bx-flip-horizontal' style='color:#00eeff; '></i>
+                        <!-- <i class='bx bx-code-alt' style='color:#00eeff'></i> -->
+                        <h2>Desktop WPF.NET Applications</h2>
+                        <p>From the experience of developing and working for Enterprise grade software systems, I
+                            understand importance of user interface that requires less explaination and training.
+                            I also have great understanding of significance of user experience making it more safe,
+                            eaasy to use and handle complex business processes for user using application. I have 2
+                            years of hands on experience with Figma.
+                        </p>
+
+                        <a href="#" class="read">learn more</a>
+                    </div>
+                    <div>
+                        <i class='bx bxl-android' style='color:#00eeff;'></i>
+                        <i class='bx bx-devices' style='color:#00eeff;'></i>
+                        <!-- <i class='bx bx-crop' style='color:#00eeff'></i> -->
+                        <h2>Jetpack Compose Android Applications</h2>
+                        <p>From the experience of developing and working for Enterprise grade software systems, I
+                            understand importance of user interface that requires less explaination and training.
+                            I also have great understanding of significance of user experience making it more safe,
+                            eaasy to use and handle complex business processes for user using application. I have 2
+                            years of hands on experience with Figma.
+                        </p>
+                        <a href="#" class="read">learn more</a>
+                    </div>
+                    <div>
+                        <i class='bx bx-crop' style='color:#00eeff;'></i>
+                        <i class='bx bxl-figma' style='color:#00eeff;'></i>
+                        <!-- <i class='bx bxl-apple' style='color:#00eeff'></i> -->
+                        <h2>UI/UX Designer</h2>
+                        <p>From the experience of developing and working for Enterprise grade software systems, I
+                            understand importance of user interface that requires less explaination and training.
+                            I also have great understanding of significance of user experience making it more safe, easy
+                            to use and handle complex business processes for user using application. I have 2 years of
+                            hands on experience with Figma.
+                        </p>
+                        <a href="#" class="read">learn more</a>
                     </div>
                 </div>
             </div>
+    </section>
 
-            <div class="col-md-6">
-                <img class="banner" src="./banner1-developer-on-desk.jpg" no-repeat alt="SMK-Developer">
+
+    <h1 class="sub-title">My <span>Skills</span></h1>
+
+    <section>
+
+        <div class="container1" id="skills">
+
+
+            <h1 class="heading1">Technical Skills</h1>
+            <div class="Technical-bars">
+                <!-- <div class="bar"><i style="color:#c95d2e" class="bx bxl-html5"></i> -->
+                <div class="bar"><i style="color:#8910da" class="bx bxl-visual-studio"></i>
+                    <div class="info">
+                        <span>C# .NET</span>
+                    </div>
+                    <div class="progress-line html">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar"><i style="color:#dddfce" class="bx bxl-javascript"></i>
+                    <div class="info">
+                        <span>Javascript</span>
+                    </div>
+                    <div class="progress-line javascript">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar"><i style="color:#eed707" class='bx bxl-python'></i>
+                    <div class="info">
+                        <span>Python</span>
+                    </div>
+                    <div class="progress-line python">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar"><i style="color:#2ae211" class="bx bxl-mongodb"></i>
+                    <div class="info">
+                        <span>MongoDB</span>
+                    </div>
+                    <div class="progress-line css">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar"><i style="color:#69BCBC" class="bx bxl-react"></i>
+                    <div class="info">
+                        <span>React</span>
+                    </div>
+                    <div class="progress-line react">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container1">
+            <h1 class="heading1">Professional Skills</h1>
+            <div class="radial-bars">
+
+                <div class="radial-bar">
+                    <svg x="0px" y="0px" viewBox="0 0 200 200">
+                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                        <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+                    </svg>
+                    <div class="percentage">90%</div>
+                    <div class="text">Creativity</div>
+                </div>
+
+                <div class="radial-bar">
+                    <svg x="0px" y="0px" viewBox="0 0 200 200">
+                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                        <circle class="path path-2" cx="100" cy="100" r="80"></circle>
+                    </svg>
+                    <div class="percentage">65%</div>
+                    <div class="text">Communication</div>
+                </div>
+
+                <div class="radial-bar">
+                    <svg x="0px" y="0px" viewBox="0 0 200 200">
+                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                        <circle class="path path-3" cx="100" cy="100" r="80"></circle>
+                    </svg>
+                    <div class="percentage">75%</div>
+                    <div class="text">Problem Solving</div>
+                </div>
+
+                <div class="radial-bar">
+                    <svg x="0px" y="0px" viewBox="0 0 200 200">
+                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                        <circle class="path path-4" cx="100" cy="100" r="80"></circle>
+                    </svg>
+                    <div class="percentage">85%</div>
+                    <div class="text">Teamwork</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section>
+        <div id="portfolio" id="project">
+            <div class="main-text" id="project">
+
+                <h2>Latest <span>Projects</span></h2>
+
+                <div class="portfolio-content">
+                    <div class="row">
+                        <img src="4174812.jpg">
+                        <div class="layer">
+                            <h5>Android Apps</h5>
+                            <p>Here are my few fantastic Android application built using Kotlin & Jetpack Compose</p>
+                            <a href="#"><i class='bx bx-link-external' style='color:#ffffff'></i></a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <img src="5467393_1687.jpg">
+                        <div class="layer">
+                            <h5>Desktop & Web Application</h5>
+                            <p>Desktop WPF based applications for Enterprises and Web applications based of MERN and ASP.NET</p>
+                            <a href="#"><i class='bx bx-link-external' style='color:#ffffff'></i></a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <img src="5757453.jpg">
+                        <div class="layer">
+                            <h5>UI/UX Design</h5>
+                            <p>UI/UX designs from my creative brain</p>
+                            <a href="#"><i class='bx bx-link-external' style='color:#ffffff'></i></a>
+                        </div>
+                    </div>
+
+                </div>
             </div>
 
+
         </div>
-    </div>
 
-    <!-- Contetnt Section Starts -->
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="contact-text">
+            <h2>Contact <span>Me</span></h2>
+            <h3>Let's Work Together</h3>
+            <p>To build & innovate future centric solutions for better Society!</p> 
+            <p>We build a better Tomorrow! </p>
+            <p>We work for a better World!</p>
+            <div class="contact-list">
+                <li><i class='bx bxs-send'></i> contact.kasimsache@gmail.com</a></li>
+                <!-- <li><i class='bx bx-phone-call'></i> 0123456789</a></li> -->
+            </div>
+            <div class="contact-icons">
 
 
+                <a href="#" style="--i:6"><i class='bx bxl-github'></i></a>
+                <a href="#" style="--i:7"><i class='bx bxl-linkedin'></i></a>
+                <a href="#" style="--i:8"><i class='bx bxl-whatsapp'></i></a>
+                <a href="#" style="--i:9"><i class='bx bxl-discord-alt'></i></a>
+                <a href="#" style="--i:10"><i class='bx bxl-instagram'></i></a>
 
-
-    <!-- Contetnt Section Ends -->
-
-    <!-- _________[Dependencies]_________  -->
-    <!-- Test Button to trigger the modal
-    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
-        Open Popup
-    </button> -->
-
-    <!-- The Modal -->
-    <div class="modal fade" id="myModal">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-                <!-- Modal Header -->
-                <div class="modal-header">
-                    <h5 class="modal-title">Oops!</h5>
-                    <!-- <button type="button" class="btn-close" data-bs-dismiss="modal"></button> -->
-                </div>
-
-                <!-- Modal Body -->
-                <div class="modal-body">
-                    <p>My Master is working on this. Soon we will be back! Take care till then!</p>
-                </div>
-
-                <!-- Modal Footer -->
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                </div>
             </div>
         </div>
+        <div class="contact-form">
+            <form action="">
+                <input type="" placeholder="Enter Your Name" required>
+                <input type="email" placeholder="Enter Your Email" required>
+
+                <input type="" placeholder="Enter Your Subject">
+                <textarea name="" id="" cols="40" rows="10" placeholder="Enter Your Message" required></textarea>
+                <input type="submit" value="Submit" class="send">
+
+
+            </form>
+        </div>
+    </section>
+
+    <div class="last-text">
+        <p>Developed with love by Mahamadkasim Sache © 2024 </p>
     </div>
 
+    <a href="#" class="top"><i class='bx bx-up-arrow-alt'></i></a>
 
-    <!-- Typed JS Link -->
-    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 
-    <!-- Setup and start animation! -->
-    <script>
-        var typed = new Typed('#element', {
-            strings: ['<b>Mohammed Kasim.</b>', '<b>Software Developer</b>.'],
-            typeSpeed: 20,
-            backspeed: 200,
-            loop: true
-        });
-    </script>
 
-    <!-- Bootsrap JS and Popper Link -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+
 </body>
 
 </html>
