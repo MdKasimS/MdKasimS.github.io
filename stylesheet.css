@@ -60,7 +60,7 @@ body
   justify-content: space-between;
 
    height: 100vh;
-   background: url(Purple\ Illustrated\ Mountain\ Desktop\ Wallpaper.png) no-repeat; 
+   background: url(mdkasims-choice-1.png) no-repeat; 
    background-size: cover;
    background-position: center;
    display: flex;
@@ -340,13 +340,13 @@ section{
     width: 90%;
 }
 .progress-line.css span{
-    width: 60%;
+    width: 80%;
 }
 .progress-line.javascript span{
     width: 85%;
 }
 .progress-line.python span{
-    width: 50%;
+    width: 90%;
 }
 .progress-line.react span{
     width: 75%;
@@ -368,13 +368,13 @@ section{
     content: "90%";
 }
 .progress-line.css span::after{
-    content: "60%";
+    content: "80%";
 }
 .progress-line.javascript span::after{
     content: "85%";
 }
 .progress-line.python span::after{
-    content: "50%";
+    content: "90%";
 }
 .progress-line.react span::after{
     content: "75%";
