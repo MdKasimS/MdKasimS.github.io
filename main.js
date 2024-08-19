@@ -34,3 +34,10 @@ window.onscroll = () => {
         }
     });
 };
+
+
+const resume = document.getElementById('downloadable-resume');
+resume.href = './MahamadkasimSache_Resume.pdf';
+resume.download = 'MahamadkasimSache_Resume.pdf';
+// resume.click();
+
